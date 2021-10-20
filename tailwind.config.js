@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sitka: ['sitka']
+      },
+      fontSize: {
+        6.5: '64px'
       }
     },
   },
