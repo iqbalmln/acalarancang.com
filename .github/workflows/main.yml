@@ -24,7 +24,7 @@ jobs:
       - name: executing remote ssh commands using password
     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@master
 
       # Runs a set of commands using the runners shell
         with:
