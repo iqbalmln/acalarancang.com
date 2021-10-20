@@ -1,32 +1,27 @@
 <template>
-  <div id="app">
-    <img
-      alt="Vue logo"
-      src="./assets/logo.png"
-      class="mx-auto"
-    >
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div
+    class="flex flex-col items-center justify-center h-screen font-sitka"
+    :style="`background: url(${require('@/assets/img/bg.png')}) top center`"
+  >
+    <Logo />
+    <div>
+      <h1 class="text-6xl">Acala Rancang</h1>
+      <h2 class="text-xl">‘Asa Ananta’</h2>
+      <p>
+
+      </p>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Logo from './components/Logo'
 
 export default {
   name: 'App',
+
   components: {
-    HelloWorld
+    Logo
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

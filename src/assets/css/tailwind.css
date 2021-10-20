@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'sitka';
+  font-style: 'normal';
+  src: url('../fonts/sitka-small-599.ttf') format('truetype');
+}
