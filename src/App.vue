@@ -1,6 +1,6 @@
 <template>
    <div
-    class="px-24"
+    class="px-24 w-full"
     :style="`background: url(${require('@/assets/img/bg.png')}) top center`"
    >
    <!-- Landing Section -->
@@ -50,6 +50,17 @@
     <!-- Main Event -->
       <div class="font-sitka pt-36">
         <h2 class="text-6.5 text-center">Main Event</h2>
+        <div class="flex justify-between">
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
+          <div>
+            <Card />
+          </div>
+        </div>
       </div>
     <!-- /Main Event -->
   </div>
@@ -57,8 +68,12 @@
 
 <script>
 import gsap from 'gsap'
+import Card from './components/Card.vue'
 
 export default {
+  components: {
+    Card
+    },
   name: 'App',
   mounted: function() {
     gsap.from('.logo', {
