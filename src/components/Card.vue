@@ -1,5 +1,5 @@
 <template>
-    <div class="flip-card font-sitka"> 
+    <div class="flip-card font-sitka my-6 lg:my-0"> 
         <div class="flip-card-inner">
             <div class="flip-card-front">
                 <h2>Webinar</h2>
