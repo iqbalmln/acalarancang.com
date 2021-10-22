@@ -1,24 +1,20 @@
-# acalarancang.com
+# Acalarancang
 
-## Project setup
-```
-npm install
-```
+## Directory Structure
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+App.vue acts as the main page (Single Page Website)
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- /assets  
+  - /css (uncompiled)
+  - /fonts
+  - /images
+  - /videos
+  
+- /sections  
+  - /hero
+  - /about
+  - ...etc
 
-### Lints and fixes files
-```
-npm run lint
-```
+- /components
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- /data

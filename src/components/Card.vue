@@ -1,8 +1,14 @@
 <template>
     <div class="flip-card font-sitka my-6 lg:my-0"> 
         <div class="flip-card-inner">
-            <div class="flip-card-front">
+            <div class="flip-card-front flex flex-col items-center justify-center gap-4">
+                <div>
+                    <img src="../assets/img/decoration.png" alt="">
+                </div>
                 <h2>Webinar</h2>
+                <div>
+                    <img src="../assets/img/decoration.png" alt="" class="transform rotate-180">
+                </div>
             </div>
             <div class="flip-card-back">
                 <div>
@@ -55,7 +61,7 @@ export default {
   position: relative;
   width: 100%;
   height: 100%;
-  border: 2px solid red;
+  border: 2px solid #B9AED5;
     border-radius: 20px;
   text-align: center;
   transition: transform 0.6s;
