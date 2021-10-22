@@ -2,7 +2,7 @@
   <!-- About Section -->
     <div class="relative pt-36 px-12 lg:px-24">
       <div class="absolute bottom-1/2 left-1/2 transform -translate-x-1/2 translate-y-1/2">
-        <img src="./assets/img/assets1.png" alt="">
+        <img src="../assets/img/assets1.png" alt="">
       </div>
 
       <div class="flex font-sitka">

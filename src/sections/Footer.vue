@@ -3,7 +3,7 @@
   <footer class="flex justify-between items-center py-24 px-12 lg:px-24 ">
     <div class="flex items-center font-sitka">
       <div>
-        <img src="./assets/img/logo-small.png" alt="">
+        <img src="../assets/img/logo-small.png" alt="">
       </div>
 
       <div>
