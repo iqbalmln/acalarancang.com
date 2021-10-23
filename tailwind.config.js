@@ -10,7 +10,8 @@ module.exports = {
         sitka: ['sitka']
       },
       fontSize: {
-        6.5: '64px'
+        6.5: '64px',
+        10: '10px'
       },
       spacing: {
         75: '300px',
