@@ -16,9 +16,9 @@
 
     <div class="flex flex-col gap-2 md:gap-0 text-center md:text-right">
       <div class="text-lg md:text-4xl lg:text-5xl text-center lg:text-right">
-        <i class='bx bxl-instagram' ></i>
-        <i class='bx bxl-linkedin-square mx-4 md:mx-8'></i>
-        <i class='bx bxl-tiktok' ></i>
+        <a href="https://www.instagram.com/acalarancang/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://www.linkedin.com/company/acalarancang" target="_blank"><i class='bx bxl-linkedin-square mx-4 md:mx-8'></i></a>
+        <a href="https://vt.tiktok.com/ZSeYmS4mf/" target="_blank"><i class='bx bxl-tiktok' ></i></a>
       </div>
 
       <div class="flex items-center gap-2 md:gap-4 justify-between">

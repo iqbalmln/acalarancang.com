@@ -35,10 +35,12 @@
       </svg>
     </div>
     <div class="flex justify-center">
-      <div class="flex items-center border border-black py-2 px-8 cursor-pointer">
+      <a href="https://intip.in/AcalaRancangVirtualExhibition" target="_blank">
+        <div class="flex items-center border border-black py-2 px-8 cursor-pointer">
         <p class="mr-8 hover:underline">Virtual Exhibition</p>
         <i class='bx bx-link-external'></i>
       </div>
+      </a>
     </div>
   </div>
   <!-- /Virtual Exhobition -->
