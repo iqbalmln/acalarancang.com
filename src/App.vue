@@ -12,7 +12,10 @@
 </template>
 
 <script>
-import gsap from 'gsap'
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 import AboutSection from './sections/About'
 import FooterSection from './sections/Footer'

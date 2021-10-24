@@ -46,7 +46,7 @@
     </div>
 
     <div class="flex justify-center">
-      <a href="https://intip.in/AcalaRancangVirtualExhibition" target="_blank">
+      <a href="https://app.lapentor.com/sphere/acala-rancang-2021" target="_blank">
         <div class="flex items-center border border-black py-2 px-8 cursor-pointer">
         <p class="mr-8 hover:underline">Virtual Exhibition</p>
         <i class='bx bx-link-external'></i>
