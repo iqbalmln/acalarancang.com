@@ -1,7 +1,7 @@
 <template>
    <div
     class="w-full"
-    :style="`background: url(${require('@/assets/img/bg.png')}) top center`"
+    :style="`background: url(${require('@/assets/img/bg.png')}) top center/cover`"
    >
     <LandingSection />
     <AboutSection />

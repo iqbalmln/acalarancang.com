@@ -1,9 +1,9 @@
 <template>
   <!-- Main Event -->
-    <div class="flex flex-col gap-8 font-sitka py-12 md:py-24 px-12 lg:px-24 ">
-      <h2 class="text-4xl md:text-6.5 text-center">Main Event</h2>
+    <div class="flex flex-col gap-8 font-sitka py-12 md:py-24 px-12 lg:px-16 xl:px-24 ">
+      <SectionTitle title="Main Event" />
 
-      <div class="flex flex-col lg:flex-row justify-between items-center">
+      <div class="flex flex-col lg:flex-row lg:gap-8 justify-between items-center">
         <MainEventCard
           v-for="card in cards"
           :key="card.title"
@@ -16,12 +16,14 @@
 
 <script>
 import MainEventCard from '../components/MainEventCard.vue'
+import SectionTitle from '../components/SectionTitle.vue'
 
 export default {
   name: 'MainEventSection',
 
   components: {
-    MainEventCard
+    MainEventCard,
+    SectionTitle
   },
 
   data () {

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flip-card bg-transparent font-sitka my-6 lg:my-0 w-75 h-125"
+    class="flip-card bg-transparent font-sitka my-6 lg:my-0 w-60 h-125 md:w-75 md:h-125"
     style="perspective: 1000px;"
   >
     <div

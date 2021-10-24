@@ -1,7 +1,7 @@
 <template>
   <!-- Footer -->
   <footer
-    class="flex flex-col lg:flex-row justify-between items-center py-12 lg:py-24 px-12 lg:px-24 "
+  class="flex flex-col lg:flex-row justify-between items-center py-12 lg:py-24 px-12 lg:px-16 xl:px-24 "
     >
     <div class="flex items-center font-sitka">
       <div>
