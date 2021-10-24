@@ -1,25 +1,25 @@
 <template>
   <!-- Virtual Exhobition -->
-  <div class="font-sitka relative">
+  <div class="flex flex-col gap-8 font-sitka relative">
     <div>
       <h2 class="text-4xl md:text-6.5 text-center">Virtual Exhibition</h2>
     </div>
-    <div class="mid-left-view-text text-xs text-white bg-green-700 absolute rounded left-64 top-1/2 px-4 py-2">
+    <div class="mid-left-view-text text-xs text-black border border-green-700 absolute rounded left-64 top-1/2 px-4 py-2">
       <p>Desain Furniture & Elemen Dekorasi Interior</p>
     </div>
-    <div class="bottom-left-view-text text-xs text-white bg-yellow-300 absolute rounded bottom-40 left-48 px-4 py-2">
+    <div class="bottom-left-view-text text-xs text-black border border-yellow-300 absolute rounded bottom-40 left-48 px-4 py-2">
       <p>Gambar Bentuk, Nirmana 2D, & Nirmana 3D</p>
     </div>
-    <div class="top-view-text text-xs text-white bg-blue-700 absolute left-1/2 top-48 rounded transform -translate-x-1/2 px-4 py-2">
+    <div class="top-view-text text-xs text-black border border-blue-700 absolute left-1/2 top-32 rounded transform -translate-x-1/2 px-4 py-2">
       <p>Furniture & Elemen Interior Siap Jual</p>
     </div>
-    <div class="mid-right-view-text text-xs text-white bg-red-500 absolute rounded right-56 top-1/2 px-4 py-2">
+    <div class="mid-right-view-text text-xs text-black border border-red-500 absolute rounded right-56 top-1/2 px-4 py-2">
       <p>Desain Ruang Private atau Public Space</p>
     </div>
-    <div class="flex justify-center">
-      <svg width="539" height="497" viewBox="0 0 539 497" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <div class="flex flex-col gap-8 justify-center items-center">
+      <svg viewBox="0 0 539 497" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="w-9/12 md:w-150">
   <rect width="539" height="497" fill="url(#pattern0)"/>
-  <path d="M223.315 191.5C223.315 194.282 221.098 196.5 218.408 196.5C215.717 196.5 213.5 194.282 213.5 191.5C213.5 188.718 215.717 186.5 218.408 186.5C221.098 186.5 223.315 188.718 223.315 191.5Z" stroke="blue" stroke-width="3" class="top-view cursor-pointer"/>
+  <path d="M223.315 191.5C223.315 194.282 221.098 196.5 218.408 196.5C215.717 196.5 213.5 194.282 213.5 191.5C213.5 188.718 215.717 186.5 218.408 186.5C221.098 186.5 223.315 188.718 223.315 191.5Z" stroke="blue" stroke-width="3" class="top-view"/>
   <path d="M162.315 160.5C162.315 163.282 160.098 165.5 157.408 165.5C154.717 165.5 152.5 163.282 152.5 160.5C152.5 157.718 154.717 155.5 157.408 155.5C160.098 155.5 162.315 157.718 162.315 160.5Z" stroke="green" stroke-width="3" class="mid-left-view cursor-pointer"/>
   <path d="M216.315 238.5C216.315 241.282 214.098 243.5 211.408 243.5C208.717 243.5 206.5 241.282 206.5 238.5C206.5 235.718 208.717 233.5 211.408 233.5C214.098 233.5 216.315 235.718 216.315 238.5Z" stroke="green" stroke-width="3" class="mid-left-view cursor-pointer"/>
   <path d="M110.315 328.5C110.315 331.282 108.098 333.5 105.408 333.5C102.717 333.5 100.5 331.282 100.5 328.5C100.5 325.718 102.717 323.5 105.408 323.5C108.098 323.5 110.315 325.718 110.315 328.5Z" stroke="yellow" stroke-width="3" class="bottom-left-view cursor-pointer"/>
@@ -34,6 +34,12 @@
   </defs>
       </svg>
     </div>
+    <div class="flex justify-center">
+      <div class="flex items-center border border-black py-2 px-8 cursor-pointer">
+        <p class="mr-8 hover:underline">Virtual Exhibition</p>
+        <i class='bx bx-link-external'></i>
+      </div>
+    </div>
   </div>
   <!-- /Virtual Exhobition -->
 </template>
@@ -41,6 +47,12 @@
 <script>
 export default {
   name: 'VirtualExhibitionSection',
+
+  data: function() { 
+    return {
+      show: false
+    }  
+  }
 
 }
 </script>

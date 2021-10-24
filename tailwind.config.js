@@ -15,7 +15,8 @@ module.exports = {
       },
       spacing: {
         75: '300px',
-        125: '500px'
+        125: '500px',
+        150: '539px'
       },
       zIndex: {
         '-10': '-10'

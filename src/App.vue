@@ -56,18 +56,3 @@ export default {
 }
 
 </script>
-<style>
-.text-after {
-  position: relative;
-}
-.text-after::after {
-  content: '';
-  position: absolute;
-  width: 50%;
-  background-color: #000;
-  height: 3px;
-  top: 50%;
-  right: -15%;
-  transform: translate(-50%);
-}
-</style>

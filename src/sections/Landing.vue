@@ -1,6 +1,6 @@
 <template>
   <!-- Landing Section -->
-  <div class="flex flex-col gap-8 items-center justify-center font-sitka text-center h-screen w-full">
+  <div class="flex flex-col gap-4 md:gap-8 items-center justify-center font-sitka text-center h-screen w-full">
     <div class="w-64 md:w-96 logo">
       <img src="../assets/logo.png" alt="">
     </div>

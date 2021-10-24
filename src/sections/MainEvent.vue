@@ -1,7 +1,7 @@
 <template>
   <!-- Main Event -->
-    <div class="font-sitka py-24 px-12 lg:px-24 ">
-      <h2 class="text-6.5 text-center">Main Event</h2>
+    <div class="flex flex-col gap-8 font-sitka py-12 md:py-24 px-12 lg:px-24 ">
+      <h2 class="text-4xl md:text-6.5 text-center">Main Event</h2>
 
       <div class="flex flex-col lg:flex-row justify-between items-center">
         <MainEventCard
