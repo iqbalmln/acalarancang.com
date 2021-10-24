@@ -25,7 +25,7 @@
 
       <div class="flex font-sitka">
         <div class="flex-2 lg:flex-1 text-left">
-          <h2 class="text-2xl md:text-4xl lg:text-5xl tracking-widest upperacase">Asa</h2>
+          <h2 class="text-2xl md:text-4xl lg:text-5xl tracking-widest uppercase">Asa</h2>
           <p class="text-xs md:text-base">Kepercayaan/harapan akan sesuatu yang diinginkan.</p>
           <h2 class="text-2xl md:text-4xl lg:text-5xl uppercase mt-2">Ananta</h2>
           <p class="text-xs md:text-base">Diambil dari bahasa sansekerta yang bermakna tak terbatas.</p>
