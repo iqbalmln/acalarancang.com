@@ -1,6 +1,6 @@
 <template>
    <div
-    class="w-full"
+    class="w-full overflow-hidden"
     :style="`background: url(${require('@/assets/img/bg.png')}) top center/cover`"
    >
     <LandingSection />
@@ -53,7 +53,35 @@ export default {
         y: -50,
         delay: 1,
         ease: 'Powe2.easeIn'
-      }) 
+      })
+
+      gsap.from('.acala-rancang', {
+        x: -50,
+        opacity: 0,
+        duration: 1,
+        scrollTrigger: '.acala-rancang',
+      })
+
+      gsap.from('.asa-ananta', {
+        x: 180,
+        opacity: 0,
+        duration: 1,
+        scrollTrigger: '.asa-ananta',
+      })
+
+      gsap.from('.asa-x-ananta', {
+        x: -50,
+        opacity: 0,
+        duration: 1,
+        scrollTrigger: '.asa-x-ananta' 
+      })
+
+      gsap.from('.about-img', {
+        y: 100,
+        opacity: 0,
+        duration: 1.5,
+        scrollTrigger: '.about-img' 
+      })
     }
   }
 }
