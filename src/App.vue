@@ -7,6 +7,7 @@
     <AboutSection />
     <MainEventSection />
     <VirtualExhibitionSection />
+    <SponsorSection />
     <FooterSection />
   </div>
 </template>
@@ -22,6 +23,7 @@ import FooterSection from './sections/Footer'
 import LandingSection from './sections/Landing'
 import MainEventSection from './sections/MainEvent'
 import VirtualExhibitionSection from './sections/VirtualExhibition'
+import SponsorSection from './sections/Sponsor'
 
 export default {
   name: 'App',
@@ -31,6 +33,7 @@ export default {
     FooterSection,
     LandingSection,
     MainEventSection,
+    SponsorSection,
     VirtualExhibitionSection
   },
 
